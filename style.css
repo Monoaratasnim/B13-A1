@@ -423,4 +423,68 @@ nav  .btn{
     gap: 10;
 }
 
-    
+ footer {
+    background: #001931;
+    padding: 120px;
+    margin-top: 120px;
+}
+
+.footer-container {
+    max-width: 1360px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.social {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+.footer-logo {
+    width: 139px;
+    height: auto;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.social-links h3 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    margin: 0;
+}
+
+.social-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 16px;
+}
+
+.social-links ul li img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.footer-bottom hr {
+    border: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    margin-bottom: 24px;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.7);
+    margin: 0;
+    text-align: center;
+}
